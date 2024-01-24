@@ -3,7 +3,7 @@ from keras.preprocessing.image import img_to_array
 from keras.applications.vgg16 import preprocess_input
 from keras.applications.vgg16 import decode_predictions
 from keras.applications.vgg16 import VGG16
-
+#just for check
 # To predict the image
 def predict(image1):
     model = VGG16()
